@@ -1,12 +1,12 @@
 package com.interest;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 public class interest {
-public static double simple(double principal,double time,double rate)
+	private static final Logger LOGGER=LogManager.getLogger(interest.class);
+public static double simple(double pr,double t,double rate)
 {
-	return (principal * time * rate)/100;
-}
-public static double compound(double principal,double time,double rate)
-{
-	return principal * Math.pow(1.0+rate/100.0,time) - principal;
+	LOGGER.info("entered to caluclate the simple interest");
+	return (pr * t * rate)/100;
 }
 }

@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class interestTest {
+public class interestTest2 {
 private static final double DELTA=1e-15;
 	@Test
 	public void testsimple() {

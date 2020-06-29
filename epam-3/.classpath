@@ -35,5 +35,14 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/HP/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar" sourcepath="C:/Users/HP/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.logging.log4j"/>
+			<attribute name="maven.artifactId" value="log4j-api"/>
+			<attribute name="maven.version" value="2.12.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
